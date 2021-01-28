@@ -8,7 +8,10 @@ You need to configure the API Keys manually.
 # Installation
 
 ```bash
-go install github.com/regmicmahesh-org/url_shortener_cli
+git clone github.com/regmicmahesh-org/url_shortener_cli
+cd url_shorter_cli
+#Edit main.go to add your API Key.
+go install .
 ```
 
 Now, just type `shortener_clipboard` in your terminal and you're good to go.
